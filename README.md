@@ -29,8 +29,11 @@ adapter = new UserAdapter(getApplicationContext(), list);
         ).adItemInterval(1).build();
 
         binding.recylcerView.setAdapter(admobNativeAdAdapter);
+        
+        
+ ```
 
-kotlin
+Kotlin
 
 ```
       val adapter = CustomeAdapter(context, list)
