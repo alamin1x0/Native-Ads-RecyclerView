@@ -15,6 +15,8 @@
 <br/>
 Java
 
+```
+
 private List<UserModel> list;
 private UserAdapter adapter;
 list = dbDao.getAllUser();
@@ -27,6 +29,8 @@ adapter = new UserAdapter(getApplicationContext(), list);
         ).adItemInterval(1).build();
 
         binding.recylcerView.setAdapter(admobNativeAdAdapter);
+        
+        ```
 
 <br/>
 
