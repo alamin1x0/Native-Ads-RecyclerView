@@ -13,6 +13,25 @@
 3. Use in your recyclerview
 <br/>
 <br/>
+Java
+
+private List<UserModel> list;
+private UserAdapter adapter;
+list = dbDao.getAllUser();
+adapter = new UserAdapter(getApplicationContext(), list);
+
+       admobNativeAdAdapter = AdmobNativeAdAdapter.Builder.with(
+                getApplicationContext().getString(R.string.admob_native_id),
+                adapter,
+                "small"   // "medium" it can also used
+        ).adItemInterval(1).build();
+
+        binding.recylcerView.setAdapter(admobNativeAdAdapter);
+
+<br/>
+
+kotlin
+<br/>
 
 ```
       val adapter = CustomeAdapter(context, list)
