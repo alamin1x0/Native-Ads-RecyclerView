@@ -32,10 +32,8 @@ adapter = new UserAdapter(getApplicationContext(), list);
         
         ```
 
-<br/>
-
 kotlin
-<br/>
+
 
 ```
       val adapter = CustomeAdapter(context, list)
